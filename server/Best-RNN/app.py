@@ -12,9 +12,9 @@ app = Flask(__name__)
 CORS(app)
 
 # Load the pre-trained model and scaler
-model = load_model('C:/Users/sruja/OneDrive/Desktop/MainProject/server/Best-RNN/rnn_model.h5')
-scaler_X = pickle.load(open('C:/Users/sruja/OneDrive/Desktop/MainProject/server/Best-RNN/scaler_X.pkl', 'rb'))
-scaler_y = pickle.load(open('C:/Users/sruja/OneDrive/Desktop/MainProject/server/Best-RNN/scaler_y.pkl', 'rb'))
+model = load_model('C:/Users/Brajesh/OneDrive/Desktop/MainProject/server/Best-RNN/rnn_model.h5')
+scaler_X = pickle.load(open('C:/Users/Brajesh/OneDrive/Desktop/MainProject/server/Best-RNN/scaler_X.pkl', 'rb'))
+scaler_y = pickle.load(open('C:/Users/Brajesh/OneDrive/Desktop/MainProject/server/Best-RNN/scaler_y.pkl', 'rb'))
 
 
 # OpenWeather API key (replace with your own)
